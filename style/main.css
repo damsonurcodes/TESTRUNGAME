@@ -1,0 +1,24 @@
+/**
+ * ===========================
+ * Your Style Goes Here
+ * ===========================
+**/
+
+h1, h2, [data-menu="main"] p, button{
+	color: #000;
+	text-shadow: -1px 0 rgb(241,160,0), 0 1px rgb(241,160,0), 1px 0 rgb(241,160,0), 0 -1px rgb(241,160,0);
+}
+
+[data-ui="inner-menu"] button{
+	background: rgb(241,160,0);
+	border-radius: 5em;
+	margin-right: 10vmax;
+}
+
+[data-menu="main"] p{
+	margin: 1vmax;
+}
+
+[data-ui="slots"] figure {
+	background: rgb(241,160,0);
+}
